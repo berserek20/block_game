@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import styles from './Moving.module.css'
 import { useMeasure } from "@uidotdev/usehooks";
 
