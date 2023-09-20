@@ -7,9 +7,7 @@ const MovingBox = () => {
   const [boxRef, { width, height }] = useMeasure();
   const w=Math.floor(width);
   const h =Math.floor(height);
-  useEffect(()=>{
-        console.log(position.top,position.left)
-    },[position])
+  
   const move = (direction) => {
     switch (direction) {
       case 'left':
